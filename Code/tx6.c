@@ -2,8 +2,6 @@
 
 int main(void)
 {
-    int n = 0;
-    while (n++ < 10)
-        printf("%5d", n);
-    return 0;
+    int i, j;
+    printf("%d", 3 && 4); // 注意! 与python不同
 }
